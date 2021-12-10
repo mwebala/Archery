@@ -143,7 +143,7 @@ function keyPressed() {
 function keyReleased() {
   if (keyCode === 32) {
     if (playerArrows.length) {
-      var angle = playerArcher.body.angl
+      var angle = playerArcher.body.angle
       playerArrows[playerArrows.length - 1].shoot(angle);
     }
   }
